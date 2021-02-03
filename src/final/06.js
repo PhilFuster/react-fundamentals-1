@@ -19,7 +19,6 @@ function UsernameForm({onSubmitUsername}) {
     </form>
   )
 }
-
 function App() {
   const onSubmitUsername = username => alert(`You entered: ${username}`)
   return <UsernameForm onSubmitUsername={onSubmitUsername} />
